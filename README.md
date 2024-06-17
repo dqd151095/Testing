@@ -1,3 +1,1 @@
-# Testing
-This repo is used to practise.
-Push your code into Week_x
+Tran Nhat Linh: Week_1 : Hello World
