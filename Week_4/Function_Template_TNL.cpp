@@ -20,7 +20,7 @@ Type Max_of_Value(Type a, Type b, Type c)
     {
         Swap(b, Max);
     }
-    if(c>Max)
+    if(c > Max)
     {
         Swap(c, Max);
     };
