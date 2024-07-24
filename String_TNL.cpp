@@ -74,10 +74,10 @@ string XOA_KHOANG_TRANG(string s)
 /* Function chuyen doi IN HOA chuoi nhap tu ban phim */
 string IN_HOA(string &s)
 {
-	for(int i = 0; i < s.size(); i++)
+    for(int i = 0; i < s.size(); i++)
     {
-		s[i] = toupper(s[i]);
-	}
+	s[i] = toupper(s[i]);
+    }
     cout<<"========================================================="<< endl;
     cout << "Chuoi sau khi chuyen doi IN HOA: "<< s << endl;
     cout<<"========================================================="<< endl;
@@ -87,10 +87,10 @@ string IN_HOA(string &s)
 /* Function chuyen doi IN THUONG chuoi nhap tu ban phim */
 string IN_THUONG(string &s)
 {
-	for(int i = 0; i < s.size(); i++)
+    for(int i = 0; i < s.size(); i++)
     {
-		s[i] = tolower(s[i]);
-	}
+	s[i] = tolower(s[i]);
+    }
     cout<<"========================================================="<< endl;
     cout << "Chuoi sau khi chuyen doi IN THUONG: "<< s << endl;
     cout<<"========================================================="<< endl;
